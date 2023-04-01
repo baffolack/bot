@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # inserisci il numero del token del tuo bot qui
-TOKEN = "6059496946:AAHAW70CgYWpVALT5vDyPDewEFWBBighK30"
+TOKEN = "my"
 
 # funzione per gestire l'evento di avvio del bot
 def start(update: Update, context: CallbackContext) -> None:
